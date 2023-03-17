@@ -1,0 +1,110 @@
+    
+    body{
+      height: 100%;
+      width: 100%;
+      margin-top: 80px;  
+      padding: 30px;  
+      background-size: cover;  
+      font-family: sans-serif; 
+      background-color: #E8EEEF;
+      
+    }
+    
+    .welcome_heading{
+      text-align: center;
+      margin-top 300px;
+      font-family: Georgia, serif;
+      font-size: 150;
+      line-height: 3;
+      color: #084b5c;
+    }
+    
+    
+    
+    
+    header {  
+      background-color: black;  
+      position: fixed;  
+      left: 0;  
+      right: 0;  
+      top: 0px;  
+      height: 100px;  
+      display: flex;  
+      flex-direction: row;
+      align-items: center;  
+      box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+        display: inline;      
+    }  
+    header li {  
+        margin: 20px;  
+    }  
+    header li a {  
+      font-family: "Times New Roman", Times, serif;
+        color: white;  
+        text-decoration: none;  
+      font-weight: 900;
+      font-size: large;
+    }  
+    
+    .special_nav{
+      padding-right:500px;
+      
+    }
+    
+    form {
+      max-width: 300px;
+      margin: 10px auto;
+      padding: 20px 20px;
+      background: #f4f7f8;
+      
+    }
+    
+    h1 {
+      margin: 0 0 30px 0;
+      text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"],
+    textarea,
+    select {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      font-size: 16px;
+      height: auto;
+      margin: 0;
+      outline: 0;
+      padding: 15px;
+      width: 100%;
+      background-color: #e8eeef;
+      color: #8a97a0;
+      
+      margin-bottom: 30px;
+    }
+    
+    
+    button {
+      padding: 19px 39px 18px 39px;
+      color: #FFF;
+      background-color: #4bc970;
+      font-size: 18px;
+      text-align: center;
+      font-style: normal;
+      border-radius: 5px;
+      width: 100%;
+      border: 1px solid #3ac162;
+      border-width: 1px 1px 3px;
+      margin-bottom: 10px;
+    }
+    
+      
+    
+      
+    
+    
+    

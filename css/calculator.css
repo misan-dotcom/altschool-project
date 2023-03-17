@@ -1,0 +1,104 @@
+    
+    body{
+      height: 100%;
+      width: 100%;
+      margin-top: 80px;  
+      padding: 30px;  
+      background-size: cover;  
+      font-family: sans-serif; 
+      background-color: #E8EEEF;
+      color: #384047;
+      
+    }
+    
+    
+    .welcome_heading{
+      text-align: center;
+      margin-top 300px;
+      font-family: Georgia, serif;
+      font-size: 150;
+      line-height: 3;
+      color: #084b5c;
+    }
+    
+    
+    
+    
+    header {  
+      background-color: black;  
+      position: fixed;  
+      left: 0;  
+      right: 0;  
+      top: 0px;  
+      height: 100px;  
+      display: flex;  
+      flex-direction: row;
+      align-items: center;  
+      box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+        display: inline;      
+    }  
+    header li {  
+        margin: 20px;  
+    }  
+    header li a {  
+      font-family: "Times New Roman", Times, serif;
+        color: white;  
+        text-decoration: none;  
+      font-weight: 900;
+      font-size: large;
+    }  
+    
+    .special_nav{
+      padding-right:500px;
+      
+    }
+    
+    
+    
+    
+    
+    
+    .container{
+      margin: auto;
+      width: 17%;
+      padding: 10px;
+      border: 1px solid #f2f2f2;
+     
+      background-color: #F8F8F8;
+    }
+    
+    table{
+      width: 100%;
+    }
+    td{
+      width: 25%;
+    }
+
+
+
+    .calculate {
+      padding: 15px;
+      font-weight: bold;
+      font-size: 16px;
+      border: none;
+      border-radius: 3px;
+      background-color: #F2F2F2;
+      width: 100%;
+}
+        
+
+
+    .answer{
+      font-size: 15px;
+      padding: 10px 5px;
+      font-weight: 700;
+      text-align: right;
+      width: 90%;
+      border: none;
+      background-color: #F8F8F8;
+    }
+     
+    
+    
